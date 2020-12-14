@@ -25,7 +25,6 @@ Tile {
 			pixelSize: isNxt ? 25 : 20
 		}
 		color: (typeof dimmableColors !== 'undefined') ? dimmableColors.waTileTextColor : colors.waTileTextColor
-       		visible: !dimState
 	}
 	TextEdit {
 		id: newsitemcountLabel
