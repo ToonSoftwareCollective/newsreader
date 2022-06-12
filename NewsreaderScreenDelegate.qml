@@ -23,7 +23,7 @@ Rectangle {
 			strMinutesNew = "0" + strMinutesNew;
 		}
 
-		return newDate.getHours() + ":" + strMinutesNew
+		return (newDate.getMonth() + 1) + "/" + newDate.getDate() + " " + newDate.getHours() + ":" + strMinutesNew
 	}
 
 	width: isNxt ? 870 : 646
